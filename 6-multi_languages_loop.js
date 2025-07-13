@@ -4,4 +4,9 @@ const languages = [
   "JavaScript is amazing"
 ];
 
-console.log(languages.join("\n"));
+let output = '';
+for (const language of languages) {
+  output += language + '\n';
+}
+console.log(output.trim());
+
